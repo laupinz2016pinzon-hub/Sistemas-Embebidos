@@ -21,9 +21,9 @@ void setup() {
 void flashLED(int flashes) {
   for (int i = 0; i < flashes; i++) {
     digitalWrite(ledPin, HIGH);  // Enciende LED
-    delay(500);                  // Espera 1000 ms
+    delay(1000);                  // Espera 1000 ms
     digitalWrite(ledPin, LOW);   // Apaga LED
-    delay(500);                  // Espera 1000 ms
+    delay(1000);                  // Espera 1000 ms
   }
 }
 
